@@ -1,0 +1,8 @@
+j=0
+s=str(input("请输入字符串："))
+for i in s:
+    if i=="a":
+        j+=1
+    else:
+        j+=0
+print("您输入的字符串a的个数为：{}".format(j))
