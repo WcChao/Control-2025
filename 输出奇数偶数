@@ -1,0 +1,6 @@
+x=int(input("inter your number:"))
+if x%2!=0:
+    x+=1
+while x%2==0 and x<=20:
+    print(x)
+    x+=2
