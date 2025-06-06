@@ -1,0 +1,19 @@
+month=int(input("请输入此时月份："))
+while True:
+    if 1>month or month>12:
+        
+        print("输入不合法，请重新输入")
+        month=int(input("请输入此时月份(请输入1-12的数字)："))
+        
+    elif 1<=month<=3:
+        print("spring")
+        break
+    elif 4<=month<=6:
+        print("summmer")
+        break
+    elif 7<=month<=9:
+        print("autumn")
+        break
+    else:
+        print("winter")
+        break
