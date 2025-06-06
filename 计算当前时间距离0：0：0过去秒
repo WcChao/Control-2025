@@ -1,0 +1,5 @@
+hour=int(input("请输入当前小时："))
+minute=int(input("请输入当前分钟："))
+second=int(input("请输入当前秒："))
+x=hour*3600+minute*60+second
+print("当前时间距离0：0：0已经过了：%d秒"%(x))
