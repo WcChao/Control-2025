@@ -1,0 +1,7 @@
+math_score=int(input("请输入数学成绩："))
+chinese_score=int(input("请输入语文成绩："))
+english_score=int(input("请输入英语成绩："))
+max_num=max(math_score,english_score,english_score)
+min_num=min(math_score,english_score,english_score)
+print("你的最高分为：",max_num,"你的最低分为：",min_num)
+print("你的平均分为：",(chinese_score+math_score+english_score)/3)
